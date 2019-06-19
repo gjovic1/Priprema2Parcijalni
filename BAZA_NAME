@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="10.0.2" class="java.beans.XMLDecoder">
+ <object class="com.company.KvizoviModel" id="KvizoviModel0">
+  <void property="kvizovi">
+   <void method="add">
+    <object class="com.company.Quiz">
+     <void property="pitanja">
+      <object class="java.util.ArrayList">
+       <void method="add">
+        <object class="com.company.Pitanje">
+         <void property="indexTacnog">
+          <int>1</int>
+         </void>
+         <void property="odgovori">
+          <object class="java.util.ArrayList">
+           <void method="add">
+            <string>Sarajevo</string>
+           </void>
+           <void method="add">
+            <string>Kingston</string>
+           </void>
+           <void method="add">
+            <string>Zenica</string>
+           </void>
+           <void method="add">
+            <string>Tarčin</string>
+           </void>
+           <void method="add">
+            <string>Banja Luka</string>
+           </void>
+          </object>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="com.company.Quiz">
+     <void property="pitanja">
+      <object class="java.util.ArrayList">
+       <void method="add">
+        <object class="com.company.Pitanje">
+         <void property="indexTacnog">
+          <int>1</int>
+         </void>
+         <void property="odgovori">
+          <object class="java.util.ArrayList">
+           <void method="add">
+            <string>Sarajevo</string>
+           </void>
+           <void method="add">
+            <string>Kingston</string>
+           </void>
+           <void method="add">
+            <string>Zenica</string>
+           </void>
+           <void method="add">
+            <string>Tarčin</string>
+           </void>
+           <void method="add">
+            <string>Banja Luka</string>
+           </void>
+          </object>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="com.company.Quiz">
+     <void property="pitanja">
+      <object class="java.util.ArrayList">
+       <void method="add">
+        <object class="com.company.Pitanje">
+         <void property="indexTacnog">
+          <int>1</int>
+         </void>
+         <void property="odgovori">
+          <object class="java.util.ArrayList">
+           <void method="add">
+            <string>Sarajevo</string>
+           </void>
+           <void method="add">
+            <string>Kingston</string>
+           </void>
+           <void method="add">
+            <string>Zenica</string>
+           </void>
+           <void method="add">
+            <string>Tarčin</string>
+           </void>
+           <void method="add">
+            <string>Banja Luka</string>
+           </void>
+          </object>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="com.company.Quiz">
+     <void property="pitanja">
+      <object class="java.util.ArrayList">
+       <void method="add">
+        <object class="com.company.Pitanje">
+         <void property="indexTacnog">
+          <int>1</int>
+         </void>
+         <void property="odgovori">
+          <object class="java.util.ArrayList">
+           <void method="add">
+            <string>Sarajevo</string>
+           </void>
+           <void method="add">
+            <string>Kingston</string>
+           </void>
+           <void method="add">
+            <string>Zenica</string>
+           </void>
+           <void method="add">
+            <string>Tarčin</string>
+           </void>
+           <void method="add">
+            <string>Banja Luka</string>
+           </void>
+          </object>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="com.company.Quiz">
+     <void property="pitanja">
+      <object class="java.util.ArrayList">
+       <void method="add">
+        <object class="com.company.Pitanje">
+         <void property="indexTacnog">
+          <int>1</int>
+         </void>
+         <void property="odgovori">
+          <object class="java.util.ArrayList">
+           <void method="add">
+            <string>Sarajevo</string>
+           </void>
+           <void method="add">
+            <string>Kingston</string>
+           </void>
+           <void method="add">
+            <string>Zenica</string>
+           </void>
+           <void method="add">
+            <string>Tarčin</string>
+           </void>
+           <void method="add">
+            <string>Banja Luka</string>
+           </void>
+          </object>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="com.company.Quiz">
+     <void property="pitanja">
+      <object class="java.util.ArrayList">
+       <void method="add">
+        <object class="com.company.Pitanje">
+         <void property="indexTacnog">
+          <int>1</int>
+         </void>
+         <void property="odgovori">
+          <object class="java.util.ArrayList">
+           <void method="add">
+            <string>Sarajevo</string>
+           </void>
+           <void method="add">
+            <string>Kingston</string>
+           </void>
+           <void method="add">
+            <string>Zenica</string>
+           </void>
+           <void method="add">
+            <string>Tarčin</string>
+           </void>
+           <void method="add">
+            <string>Banja Luka</string>
+           </void>
+          </object>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="com.company.Quiz">
+     <void property="pitanja">
+      <object class="java.util.ArrayList">
+       <void method="add">
+        <object class="com.company.Pitanje">
+         <void property="indexTacnog">
+          <int>1</int>
+         </void>
+         <void property="odgovori">
+          <object class="java.util.ArrayList">
+           <void method="add">
+            <string>Sarajevo</string>
+           </void>
+           <void method="add">
+            <string>Kingston</string>
+           </void>
+           <void method="add">
+            <string>Zenica</string>
+           </void>
+           <void method="add">
+            <string>Tarčin</string>
+           </void>
+           <void method="add">
+            <string>Banja Luka</string>
+           </void>
+          </object>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="com.company.Quiz">
+     <void property="pitanja">
+      <object class="java.util.ArrayList">
+       <void method="add">
+        <object class="com.company.Pitanje">
+         <void property="indexTacnog">
+          <int>1</int>
+         </void>
+         <void property="odgovori">
+          <object class="java.util.ArrayList">
+           <void method="add">
+            <string>Sarajevo</string>
+           </void>
+           <void method="add">
+            <string>Kingston</string>
+           </void>
+           <void method="add">
+            <string>Zenica</string>
+           </void>
+           <void method="add">
+            <string>Tarčin</string>
+           </void>
+           <void method="add">
+            <string>Banja Luka</string>
+           </void>
+          </object>
+         </void>
+        </object>
+       </void>
+      </object>
+     </void>
+    </object>
+   </void>
+  </void>
+ </object>
+</java>
