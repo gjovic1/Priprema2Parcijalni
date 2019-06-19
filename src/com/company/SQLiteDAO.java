@@ -11,6 +11,8 @@ import java.util.Scanner;
 
 public class SQLiteDAO implements Baza {
     private static SQLiteDAO dao;
+    private PreparedStatement getKvizByName;
+
     public static SQLiteDAO getInstance() {
         if(dao == null){
             dao = new SQLiteDAO();
@@ -43,6 +45,7 @@ public class SQLiteDAO implements Baza {
         getKvizoviStatement = conn.prepareStatement("select * from kvizovi");
         deletePitanjeStatement = conn.prepareStatement("delete from pitanja where kvizFX = ?");
         deleteOdgovoriStatement = conn.prepareStatement("delete from odgovori where pitanjeFX = ?");
+        getKvizByName = conn.prepareStatement("select id from kvizovi where naziv = ?");
     }
     private void setupDatabase() {
         String sql="";
