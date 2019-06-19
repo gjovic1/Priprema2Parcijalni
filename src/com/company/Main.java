@@ -1,5 +1,6 @@
 package com.company;
 
+import java.beans.XMLDecoder;
 import java.beans.XMLEncoder;
 import java.io.*;
 import java.util.ArrayList;
@@ -21,15 +22,14 @@ public class Main {
         pitanja.add(pitanje);
         kviz.setPitanja(pitanja);
 
-        XMLEncoder encoder=null;
+        XMLDecoder decoder=null;
         try{
-            encoder=new XMLEncoder(new BufferedOutputStream(new FileOutputStream("kvizasdaa.xml")));
+            decoder=new XMLDecoder(new BufferedInputStream(new FileInputStream("kvizasdaa.xml")));
         }catch(FileNotFoundException fileNotFound){
             System.out.println("ERROR: While Creating or Opening the File kvizfsa.xml");
         }
-        encoder.writeObject(kviz);
-        encoder.close();
-        
+        Quiz kviz2 = (Quiz) decoder.readObject();
         System.out.println(kviz);
+        System.out.println(kviz2);
     }
 }
