@@ -7,6 +7,8 @@ import java.util.ArrayList;
 
 public class Main {
 
+    private static Baza baza;
+
     public static void main(String[] args) {
         Quiz kviz = new Quiz ("NekiKviz");
         Pitanje pitanje = new Pitanje("Koji je glavni grad Jamajke?");
@@ -22,14 +24,12 @@ public class Main {
         pitanja.add(pitanje);
         kviz.setPitanja(pitanja);
 
-        XMLDecoder decoder=null;
-        try{
-            decoder=new XMLDecoder(new BufferedInputStream(new FileInputStream("kvizasdaa.xml")));
-        }catch(FileNotFoundException fileNotFound){
-            System.out.println("ERROR: While Creating or Opening the File kvizfsa.xml");
-        }
-        Quiz kviz2 = (Quiz) decoder.readObject();
-        System.out.println(kviz);
-        System.out.println(kviz2);
+        baza = XMLDAO.getInstance();
+        baza.addKviz(kviz);
+        baza.addKviz(kviz);
+        baza.addKviz(kviz);
+        baza.addKviz(kviz);
+
+        System.out.println(baza.getKvizovi());
     }
 }
