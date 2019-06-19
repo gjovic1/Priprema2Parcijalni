@@ -10,6 +10,10 @@ public class Pitanje implements Serializable {
 
     public Pitanje() {}
 
+    public Pitanje(String s) {
+    }
+
+
     public int getIndexTacnog() {
         return indexTacnog;
     }

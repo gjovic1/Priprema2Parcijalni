@@ -8,6 +8,9 @@ public class Quiz implements Serializable {
     ArrayList<Pitanje> pitanja;
     public Quiz(){}
 
+    public Quiz(String nekiKviz) {
+    }
+
     public ArrayList<Pitanje> getPitanja() {
         return pitanja;
     }
