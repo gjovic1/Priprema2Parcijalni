@@ -24,7 +24,7 @@ public class Main {
         pitanja.add(pitanje);
         kviz.setPitanja(pitanja);
 
-        baza = XMLDAO.getInstance();
+        baza = SQLiteDAO.getInstance();
         baza.addKviz(kviz);
         baza.addKviz(kviz);
         baza.addKviz(kviz);
